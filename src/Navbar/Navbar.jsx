@@ -48,6 +48,9 @@ const Navbar = () => {
           <li>
             <a href="#aboutMe">About</a>
           </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
         </ul>
       </div>
     </div>
