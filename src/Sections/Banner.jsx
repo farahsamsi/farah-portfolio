@@ -34,12 +34,19 @@ const Banner = () => {
           </div>
         </div>
         <div className="mt-8 flex gap-5">
-          <button className="btn btn-outline border-none bg-white text-primary  hover:scale-105 transition ease-in-out">
+          <a
+            href="/Farah_Resume.pdf"
+            download="Farah_Resume.pdf"
+            className="btn btn-outline border-none bg-white text-primary  hover:scale-105 transition ease-in-out"
+          >
             Download Resume
-          </button>
-          <button className="btn btn-outline text-white hover:scale-105 transition ease-in-out">
+          </a>
+          <a
+            href="#contactMe"
+            className="btn btn-outline text-white hover:scale-105 transition ease-in-out"
+          >
             Contact Me
-          </button>
+          </a>
         </div>
       </div>
     </div>

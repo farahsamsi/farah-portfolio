@@ -67,6 +67,19 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
+          <li>
+            <Link to="/" onClick={() => handleScroll("contactMe")}>
+              Contact Me
+            </Link>
+          </li>
+
+          <a
+            href="/Farah_Resume.pdf"
+            download="Farah_Resume.pdf"
+            className="btn btn-outline border-none  text-primary "
+          >
+            Download Resume
+          </a>
         </ul>
       </div>
     </div>
