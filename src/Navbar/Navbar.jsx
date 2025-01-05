@@ -1,8 +1,15 @@
 import { IoMenuSharp } from "react-icons/io5";
 import profileImg from "../assets/photoFarah.jpg";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Navbar = () => {
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="drawer lg:drawer-open">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
@@ -46,10 +53,19 @@ const Navbar = () => {
           <div className="divider"></div>
 
           <li>
-            <a href="#aboutMe">About</a>
+            <Link to="/" onClick={() => handleScroll("aboutMe")}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <Link to="/" onClick={() => handleScroll("skills")}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="/" onClick={() => handleScroll("projects")}>
+              Projects
+            </Link>
           </li>
         </ul>
       </div>

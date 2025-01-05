@@ -1,5 +1,6 @@
 import AboutMe from "../Sections/AboutMe";
 import Banner from "../Sections/Banner";
+import Projects from "../Sections/Projects";
 import Skills from "../Sections/Skills";
 
 const MainLayout = () => {
@@ -13,6 +14,7 @@ const MainLayout = () => {
       <Skills></Skills>
       {/* Education */}
       {/* Projects */}
+      <Projects></Projects>
       {/* Contact me */}
     </div>
   );
