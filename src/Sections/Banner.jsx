@@ -1,3 +1,4 @@
+import { Typewriter } from "react-simple-typewriter";
 import githubImg from "../assets/icons8-github-64.png";
 import linkedinImg from "../assets/icons8-linkedin-64.png";
 const Banner = () => {
@@ -10,7 +11,17 @@ const Banner = () => {
         <p className="mt-5 lg:mt-10 mb-5 text-2xl lg:text-4xl">
           Frontend Web Developer
         </p>
-        <p className="mt-10 mb-5 text-xl lg:text-3xl">Type Writer</p>
+        <p className="mt-10 mb-5 text-xl lg:text-3xl">
+          {" "}
+          A
+          <span className="text-primary drop-shadow-2xl">
+            <Typewriter
+              words={[" Fast Learner", " Developer", " Tech Enthusiast"]}
+              loop={false}
+              typeSpeed={40}
+            />
+          </span>
+        </p>
         <p className="lg:text-2xl font-light drop-shadow-xl mb-6">
           Passionate about creating user-friendly, visually stunning, and
           responsive websites. I specialize in translating ideas into digital
