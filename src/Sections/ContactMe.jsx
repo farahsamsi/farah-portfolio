@@ -1,6 +1,13 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaMapMarkerAlt,
+  FaPhone,
+} from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import Swal from "sweetalert2";
 
 const ContactMe = () => {
   const form = useRef();
@@ -9,11 +16,18 @@ const ContactMe = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_5ln2nd8", "template_0fp55qw", form.current, {
-        publicKey: "Ei2XhiOzAkNkYDSvc",
+      .sendForm("service_l0j6ipg", "template_m77k2b4", form.current, {
+        publicKey: "j7_dWHSJsCz38VX9L",
       })
       .then(
         () => {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your Message has been sent.",
+            showConfirmButton: false,
+            timer: 1500,
+          });
           console.log("SUCCESS!");
         },
         (error) => {
@@ -51,11 +65,25 @@ const ContactMe = () => {
                 <FaEnvelope className="text-primary text-lg" />
               </div>
               <a
-                href="mailto:1827034farahsamsiprome@gmail.com"
+                href="mailto:samsiprome1@gmail.com"
                 target="blank"
                 className="text-gray-800 hover:underline"
               >
-                1827034farahsamsiprome@gmail.com
+                samsiprome1@gmail.com
+              </a>
+            </div>
+
+            {/* Address */}
+            <div className="flex items-center space-x-4">
+              <div className="bg-gray-300 rounded-full p-3">
+                <FaMapMarkerAlt className="text-primary text-lg" />
+              </div>
+              <a
+                href=""
+                target="blank"
+                className="text-gray-800 hover:underline"
+              >
+                Dhaka, Bangladesh
               </a>
             </div>
 
@@ -80,12 +108,12 @@ const ContactMe = () => {
                 <FaLinkedin className="text-primary text-lg" />
               </div>
               <a
-                href="https://github.com/farahsamsi"
+                href="https://www.linkedin.com/in/farah-samsi/"
                 target="blank"
                 rel="noopener noreferrer"
                 className="text-gray-800 hover:underline"
               >
-                https://github.com/farahsamsi
+                www.linkedin.com/in/farah-samsi
               </a>
             </div>
           </div>
@@ -111,7 +139,7 @@ const ContactMe = () => {
               <label className="block text-sm font-medium mb-2">Email</label>
               <input
                 type="email"
-                name="user_email"
+                name="reply_to"
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
             </div>

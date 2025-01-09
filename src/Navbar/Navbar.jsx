@@ -1,6 +1,9 @@
-import { IoMenuSharp } from "react-icons/io5";
+import { IoMail, IoMenuSharp } from "react-icons/io5";
 import profileImg from "../assets/photoFarah.jpg";
 import { Link, Outlet } from "react-router-dom";
+import { FaUser } from "react-icons/fa";
+import { SiHyperskill } from "react-icons/si";
+import { GrProjects } from "react-icons/gr";
 
 const Navbar = () => {
   const handleScroll = (id) => {
@@ -52,26 +55,49 @@ const Navbar = () => {
           </div>
           <div className="divider"></div>
 
-          <li>
-            <Link to="/" onClick={() => handleScroll("aboutMe")}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/" onClick={() => handleScroll("skills")}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="/" onClick={() => handleScroll("projects")}>
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link to="/" onClick={() => handleScroll("contactMe")}>
-              Contact Me
-            </Link>
-          </li>
+          <Link to="/" onClick={() => handleScroll("aboutMe")}>
+            <li className=" flex flex-row items-center ">
+              <div className="w-full">
+                <span className="text-primary text-xl mr-3">
+                  <FaUser />
+                </span>
+                About
+              </div>
+            </li>
+          </Link>
+
+          <Link to="/" onClick={() => handleScroll("skills")}>
+            <li className=" flex flex-row items-center">
+              <div className="w-full">
+                <span className="text-primary text-xl mr-3">
+                  <SiHyperskill />
+                </span>
+                Skills
+              </div>
+            </li>
+          </Link>
+
+          <Link to="/" onClick={() => handleScroll("projects")}>
+            <li className=" flex flex-row items-center">
+              <div className="w-full">
+                <span className="text-primary text-xl mr-3">
+                  <GrProjects />
+                </span>
+                Projects
+              </div>
+            </li>
+          </Link>
+
+          <Link to="/" onClick={() => handleScroll("contactMe")}>
+            <li className=" flex flex-row items-center">
+              <div className="w-full">
+                <span className="text-primary text-xl mr-3">
+                  <IoMail />
+                </span>
+                Contact Me
+              </div>
+            </li>
+          </Link>
 
           <a
             href="/Farah_Resume.pdf"
