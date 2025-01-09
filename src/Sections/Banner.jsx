@@ -37,7 +37,7 @@ const Banner = () => {
             </a>
           </div>
           <div className="avatar">
-            <a href="https://github.com/farahsamsi" target="blank">
+            <a href="https://www.linkedin.com/in/farah-samsi/" target="blank">
               <div className="w-14 p-2 hover:bg-white/50 hover:scale-105 transition ease-in-out bg-white rounded-full">
                 <img src={linkedinImg} />
               </div>
