@@ -153,7 +153,7 @@ const ContactMe = () => {
             </div>
             <input
               type="submit"
-              className="w-full bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 transition"
+              className="w-full bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 transition cursor-pointer"
               value="Send"
             />
           </form>

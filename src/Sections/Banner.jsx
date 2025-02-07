@@ -8,9 +8,7 @@ const Banner = () => {
         <h1 className="text-3xl lg:text-6xl">
           Hi, I&apos;m <span className="bg-primary"> Farah Samsi Prome </span>
         </h1>
-        <p className="mt-5 lg:mt-10 mb-5 text-2xl lg:text-4xl">
-          Frontend Web Developer
-        </p>
+        <p className="mt-5 lg:mt-10 mb-5 text-2xl lg:text-4xl">Web Developer</p>
         <p className="mt-10 mb-5 text-xl lg:text-3xl">
           {" "}
           A
@@ -37,7 +35,7 @@ const Banner = () => {
             </a>
           </div>
           <div className="avatar">
-            <a href="https://www.linkedin.com/in/farah-samsi/" target="blank">
+            <a href="https://github.com/farahsamsi" target="blank">
               <div className="w-14 p-2 hover:bg-white/50 hover:scale-105 transition ease-in-out bg-white rounded-full">
                 <img src={linkedinImg} />
               </div>

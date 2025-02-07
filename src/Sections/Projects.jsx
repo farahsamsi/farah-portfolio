@@ -3,7 +3,8 @@ import chillGamerAni from "../../public/chillGamer.json";
 import Lottie from "lottie-react";
 import { Link } from "react-router-dom";
 import rideMateAni from "../../public/RideMate.json";
-import discountProAni from "../../public/discountPro.json";
+import trackAni from "../../public/trackSmart.json";
+// import discountProAni from "../../public/discountPro.json";
 
 const Projects = () => {
   return (
@@ -12,6 +13,26 @@ const Projects = () => {
         Projects
       </h1>
       <div className="p-4 lg:p-16 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Link to="/trackSmart">
+          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out">
+            <figure className="h-48">
+              <Lottie animationData={trackAni} />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title w-full flex justify-between text-2xl text-accent ">
+                <h1>TrackSmart</h1>
+                <p className="w-fit flex justify-end">
+                  <IoEllipsisVertical />
+                </p>
+              </h2>
+              <p className="leading-relaxed">
+                TrackSmart is a MERN stack web application built to help
+                businesses efficiently manage their assets and products.
+              </p>
+            </div>
+          </div>
+        </Link>
+
         <Link to="/chillGamer">
           <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out">
             <figure className="h-48">
@@ -52,7 +73,7 @@ const Projects = () => {
           </div>
         </Link>
 
-        <Link to="/discountPro">
+        {/* <Link to="/discountPro">
           <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out">
             <figure className="h-48">
               <Lottie animationData={discountProAni} />
@@ -70,7 +91,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

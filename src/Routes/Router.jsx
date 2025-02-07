@@ -5,6 +5,7 @@ import MainLayout from "../Layout/MainLayout";
 import ChillGamer from "../ProjectDetails/ChillGamer";
 import RideMate from "../ProjectDetails/RideMate";
 import DiscountPro from "../ProjectDetails/DiscountPro";
+import TrackSmart from "../ProjectDetails/TrackSmart";
 
 const Router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const Router = createBrowserRouter([
       {
         path: "/",
         element: <MainLayout></MainLayout>,
+      },
+      {
+        path: "trackSmart",
+        element: <TrackSmart></TrackSmart>,
       },
       {
         path: "chillGamer",

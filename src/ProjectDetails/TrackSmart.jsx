@@ -1,32 +1,32 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { LiaConnectdevelop } from "react-icons/lia";
-import ridemate1 from "../assets/rideMate1.png";
+import trackImg from "../assets/trackSmart.png";
 
-const RideMate = () => {
+const TrackSmart = () => {
   return (
     <div className="">
       <h2 className="bg-primary text-white text-2xl lg:text-4xl py-4 lg:py-7 px-4 md:px-16 uppercase font-light">
-        RideMate
+        TrackSmart
       </h2>
       <div className="p-4 lg:p-16 grid grid-cols-1 lg:grid-cols-6 gap-4">
         <div className="lg:col-span-4">
           <div>
-            <h1 className="text-2xl mb-4">About RideMate</h1>
+            <h1 className="text-2xl mb-4">About TrackSmart</h1>
             <p className="mb-6">
-              The RideMate is a feature-rich, user-centric platform designed to
-              facilitate seamless car bookings, user authentication, and
-              efficient car inventory management. It provides a responsive and
-              user-friendly interface for customers to rent cars effortlessly
-              while ensuring secure and efficient backend operations.
+              This project is a MERN stack web application built to help
+              businesses efficiently manage their assets and products. The
+              system is designed to enable HR Managers and employees to track
+              and manage company assets, ensuring smooth operations and better
+              asset utilization.
             </p>
           </div>
-          <img src={ridemate1} alt="" />
+          <img src={trackImg} alt="" />
         </div>
         <div className="lg:col-span-2 ">
           <div className="flex gap-4 justify-center my-4 md:my-7">
             <div className="avatar">
               <a
-                href="https://github.com/farahsamsi/RideMate-client"
+                href="https://github.com/farahsamsi/TrackSmart-Client"
                 target="blank"
               >
                 <div
@@ -38,7 +38,7 @@ const RideMate = () => {
               </a>
             </div>
             <div className="avatar">
-              <a href="https://ride-mate.netlify.app" target="blank">
+              <a href="https://tracksmart-466af.web.app" target="blank">
                 <div
                   className="text-2xl lg:text-4xl p-4  hover:scale-105 transition ease-in-out bg-primary text-white rounded-full tooltip"
                   data-tip="Live URL"
@@ -86,6 +86,7 @@ const RideMate = () => {
           </div>
         </div>
       </div>
+
       <div className="p-4">
         <div className="max-w-4xl mx-auto p-6">
           <h2 className="text-2xl font-bold text-center mb-6">
@@ -98,25 +99,11 @@ const RideMate = () => {
             encountered:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
-            <li>
-              Ensuring smooth authentication using Firebase for email/password
-              and Google login.
-            </li>
-            <li>
-              Managing real-time updates for booking availability and user
-              actions.
-            </li>
-            <li>
-              Implementing responsive UI with Tailwind CSS and daisyUI for a
-              seamless experience.
-            </li>
-            <li>
-              Optimizing search and sorting functionality for car listings.
-            </li>
-            <li>
-              Handling database operations efficiently with MongoDB to track
-              bookings and updates.
-            </li>
+            <li>JWT Authentication Implementation</li>
+            <li>Role-Based Access Control</li>
+            <li>Data Visualization with Chart.js</li>
+            <li>Stripe Payment Integration</li>
+            <li>Responsive UI with Tailwind CSS and DaisyUI</li>
           </ul>
 
           <h3 className="text-lg font-semibold mt-6">
@@ -127,14 +114,11 @@ const RideMate = () => {
             planned:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
-            <li>Adding real-time chat support for customer inquiries.</li>
-            <li>
-              Enhancing booking management with automated reminders and
-              notifications.
-            </li>
-            <li>Introducing a loyalty program for frequent renters.</li>
-            <li>Implementing AI-powered recommendations for car selections.</li>
-            <li>Optimizing backend performance with caching mechanisms.</li>
+            <li>Real-time Notifications with WebSockets</li>
+            <li>Advanced Search with Elasticsearch</li>
+            <li>More Interactive Data Visualization</li>
+            <li>Automated Testing with Jest & Cypress</li>
+            <li>Performance Optimization and Caching</li>
           </ul>
         </div>
       </div>
@@ -142,4 +126,4 @@ const RideMate = () => {
   );
 };
 
-export default RideMate;
+export default TrackSmart;

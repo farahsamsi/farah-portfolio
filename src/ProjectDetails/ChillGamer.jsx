@@ -89,6 +89,51 @@ const ChillGamer = () => {
           </div>
         </div>
       </div>
+      <div className="p-4">
+        <div className="max-w-4xl mx-auto p-6">
+          <h2 className="text-2xl font-bold text-center mb-6">
+            Project Insights
+          </h2>
+
+          <h3 className="text-lg font-semibold mt-4">Challenges Faced</h3>
+          <p className="text-gray-700">
+            During the development of this project, several challenges were
+            encountered:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-gray-700">
+            <li>Implementing secure authentication with Firebase and OAuth.</li>
+            <li>
+              Managing and structuring user-generated game reviews efficiently.
+            </li>
+            <li>
+              Creating a seamless dark/light mode toggle with theme persistence.
+            </li>
+            <li>
+              Optimizing database queries for review filtering and sorting.
+            </li>
+            <li>Ensuring a fully responsive UI across all devices.</li>
+          </ul>
+
+          <h3 className="text-lg font-semibold mt-6">
+            Potential Improvements & Future Plans
+          </h3>
+          <p className="text-gray-700">
+            To enhance the system further, the following improvements are
+            planned:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-gray-700">
+            <li>
+              Implementing real-time notifications for new reviews and comments.
+            </li>
+            <li>Adding a community discussion feature for gamers.</li>
+            <li>
+              Integrating a recommendation system based on user preferences.
+            </li>
+            <li>Enhancing security measures with role-based permissions.</li>
+            <li>Implementing caching mechanisms for faster data retrieval.</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

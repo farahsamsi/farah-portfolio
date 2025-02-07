@@ -1,7 +1,7 @@
 import { IoMail, IoMenuSharp } from "react-icons/io5";
 import profileImg from "../assets/photoFarah.jpg";
 import { Link, Outlet } from "react-router-dom";
-import { FaUser } from "react-icons/fa";
+import { FaGraduationCap, FaUser } from "react-icons/fa";
 import { SiHyperskill } from "react-icons/si";
 import { GrProjects } from "react-icons/gr";
 
@@ -73,6 +73,17 @@ const Navbar = () => {
                   <SiHyperskill />
                 </span>
                 Skills
+              </div>
+            </li>
+          </Link>
+
+          <Link to="/" onClick={() => handleScroll("education")}>
+            <li className=" flex flex-row items-center">
+              <div className="w-full">
+                <span className="text-primary text-xl mr-3">
+                  <FaGraduationCap />
+                </span>
+                Education
               </div>
             </li>
           </Link>
