@@ -2,6 +2,7 @@ import AboutMe from "../Sections/AboutMe";
 import Banner from "../Sections/Banner";
 import ContactMe from "../Sections/ContactMe";
 import Education from "../Sections/Education";
+import Footer from "../Sections/Footer";
 import Projects from "../Sections/Projects";
 import Skills from "../Sections/Skills";
 
@@ -20,6 +21,8 @@ const MainLayout = () => {
       <Projects></Projects>
       {/* Contact me */}
       <ContactMe></ContactMe>
+
+      <Footer></Footer>
     </div>
   );
 };
