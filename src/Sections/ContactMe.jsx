@@ -65,11 +65,11 @@ const ContactMe = () => {
                 <FaEnvelope className="text-primary text-lg" />
               </div>
               <a
-                href="mailto:samsiprome1@gmail.com"
+                href="mailto:farahsamsi11@gmail.com"
                 target="blank"
                 className="text-gray-800 hover:underline"
               >
-                samsiprome1@gmail.com
+                farahsamsi11@gmail.com
               </a>
             </div>
 

@@ -13,7 +13,7 @@ const RideMate = () => {
           <div>
             <h1 className="text-2xl mb-4">About RideMate</h1>
             <p className="mb-6">
-              The RideMate is a feature-rich, user-centric platform designed to
+              RideMate is a feature-rich, user-centric platform designed to
               facilitate seamless car bookings, user authentication, and
               efficient car inventory management. It provides a responsive and
               user-friendly interface for customers to rent cars effortlessly
