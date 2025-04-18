@@ -14,7 +14,7 @@ const Projects = () => {
       </h1>
       <div className="p-4 lg:p-16 grid grid-cols-1 md:grid-cols-3 gap-4">
         <Link to="/trackSmart">
-          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out">
+          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out h-full">
             <figure className="h-48">
               <Lottie animationData={trackAni} />
             </figure>
@@ -29,12 +29,15 @@ const Projects = () => {
                 TrackSmart is a MERN stack web application built to help
                 businesses efficiently manage their assets and products.
               </p>
+              <button className="btn bg-primary text-white hover:bg-primary hover:scale-105 transition ease-in-out">
+                View More
+              </button>
             </div>
           </div>
         </Link>
 
         <Link to="/chillGamer">
-          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out">
+          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out h-full">
             <figure className="h-48">
               <Lottie animationData={chillGamerAni} />
             </figure>
@@ -49,12 +52,15 @@ const Projects = () => {
                 Chill Gamer is a user-friendly platform for gamers to explore
                 and share reviews of their favorite games.
               </p>
+              <button className="btn bg-primary text-white hover:bg-primary hover:scale-105 transition ease-in-out">
+                View More
+              </button>
             </div>
           </div>
         </Link>
 
         <Link to="/rideMate">
-          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out">
+          <div className="card card-compact bg-base-100 shadow-xl hover:scale-105 transition ease-in-out h-full">
             <figure className="h-48">
               <Lottie animationData={rideMateAni} />
             </figure>
@@ -69,6 +75,9 @@ const Projects = () => {
                 RideMate is a user-centric platform designed to facilitate
                 seamless car bookings and efficient car inventory management.
               </p>
+              <button className="btn bg-primary text-white hover:bg-primary hover:scale-105 transition ease-in-out">
+                View More
+              </button>
             </div>
           </div>
         </Link>

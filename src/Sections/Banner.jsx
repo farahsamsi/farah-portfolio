@@ -52,7 +52,7 @@ const Banner = () => {
           </a>
           <a
             href="#contactMe"
-            className="btn btn-outline text-white hover:scale-105 transition ease-in-out"
+            className="btn btn-outline text-white  hover:scale-105  transition ease-in-out"
           >
             Contact Me
           </a>
