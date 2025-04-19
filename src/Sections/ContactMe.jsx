@@ -108,12 +108,12 @@ const ContactMe = () => {
                 <FaLinkedin className="text-primary text-lg" />
               </div>
               <a
-                href="https://www.linkedin.com/in/farah-samsi/"
+                href="https://www.linkedin.com/in/farahsamsi11"
                 target="blank"
                 rel="noopener noreferrer"
                 className="text-gray-800 hover:underline"
               >
-                www.linkedin.com/in/farah-samsi
+                https://www.linkedin.com/in/farahsamsi11
               </a>
             </div>
           </div>
