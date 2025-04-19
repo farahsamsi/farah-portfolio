@@ -1,8 +1,28 @@
-# React + Vite
+# Farah's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository! This repository showcases my projects, skills, and journey as a frontend web developer.
 
-Currently, two official plugins are available:
+# Live URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Portfolio Website URL](https://portfolio-farah.netlify.app) https://portfolio-farah.netlify.app
+
+## About Me
+
+I'm Farah, a passionate learner and aspiring frontend developer from Bangladesh. I love crafting beautiful and user-friendly interfaces using modern web technologies.
+
+## Skills
+
+- HTML5, CSS3, JavaScript
+- React.js, Next.js
+- Tailwind CSS, daisyUI
+- MongoDB, Firebase
+- Responsive Design
+- Git, GitHub
+
+## Portfolio Website
+
+Explore my portfolio website to see my projects and learn more about my journey as a frontend developer: [Portfolio Website Link](https://portfolio-farah.netlify.app)
+
+## Contact Me
+
+Feel free to reach out to me via email at [farahsamsi11@gmail.com](mailto:farahsamsi11@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/farahsamsi11).
