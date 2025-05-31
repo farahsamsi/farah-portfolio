@@ -111,8 +111,8 @@ const Navbar = () => {
           </Link>
 
           <a
-            href="/Farah_Resume.pdf"
-            download="Farah_Resume.pdf"
+            href="/Farah_Samsi_Prome_Resume.pdf"
+            download="Farah_Samsi_Prome_Resume.pdf"
             className="btn btn-outline border-none  text-primary "
           >
             Download Resume

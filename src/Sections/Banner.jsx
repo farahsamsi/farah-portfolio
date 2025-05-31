@@ -44,8 +44,8 @@ const Banner = () => {
         </div>
         <div className="mt-8 flex gap-5">
           <a
-            href="/Farah_Resume.pdf"
-            download="Farah_Resume.pdf"
+            href="/Farah_Samsi_Prome_Resume.pdf"
+            download="Farah_Samsi_Prome_Resume.pdf"
             className="btn btn-outline border-none bg-white text-primary  hover:scale-105 transition ease-in-out"
           >
             Download Resume
